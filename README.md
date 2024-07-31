@@ -22,8 +22,8 @@ SlashSignItem is a Minecraft plugin designed for Paper servers. It allows player
 ## Commands
 | Command | Required Permission |
 | ------------ | ---------------------- |
-| /sign          | slashsignitem.sign     |
-| /unsign      | slashsignitem.unsign |
+| /sign          | SlashSignItem.sign     |
+| /unsign      | SlashSignItem.unsign |
 
 ## Permissions
 
