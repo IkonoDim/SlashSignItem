@@ -1,0 +1,35 @@
+name: SlashSignItem
+description: This plugin lets players add and remove their signature on items and is highly customizable.
+author: ikonodim
+version: '${project.version}'
+main: com.ikonodim.slashSignItem.SlashSignItem
+api-version: '1.20'
+prefix: SlashSignItem
+website: https://ikonodim.com/mc
+
+commands:
+  sign:
+    description: Sign an item
+    usage: /sign
+    permission: SlashSignItem.sign
+  unsign:
+    description: Unsing an item
+    usage: /unsign
+    permission: SlashSignItem.unsign
+
+permissions:
+  SlashSignItem.sign:
+    description: Allows the player to sign an item
+    default: true
+  SlashSignItem.unsign:
+    description: Allows the player to remove the signature of an item
+    default: op
+  SlashSignItem.ignore_blacklist:
+    description: Allows the player to sign blacklisted items
+    default: op
+  SlashSignItem.ignore_max-stack-size:
+    description: Allows the player to sign items beyond the stack-limit
+    default: op
+  SlashSignItem.overwrite_signature:
+    description: Allows the player to overwrite existing signatures
+    default: op

@@ -1,0 +1,30 @@
+# Available placeholders:  %player% | %date% | %time%
+signature-template: "&8Signed by &a&l%player%&r &8on &7&l%date%&r &8at &7%time%&r"
+
+item-name-template: "&b%name%"
+
+Options:
+  # Items in this list can't be signed (bypass with SlashSignItem.ignore_blacklist permission)
+  item-blacklist: []  # write like this: ["bread", "dragon_egg"]
+
+  # How many items should the user be able to sign at the same time? (bypass limit with SlashSignItem.ignore_max-stack-size)
+  max-stack-size: 1
+
+  # After signing an item it will have an enchantment glint.
+  enchantment-glint: true  # true or false
+
+  # Players with the SlashSignItem.overwrite_signature permission will be able to overwrite the signature of items.
+  override-signature: false  # false or true
+
+Messages:
+  prefix: "[SlashSignItem] >> "
+
+  item-no-signature: "%prefix% &cThis item is not signed!"
+  item-has-signature: "%prefix% &cThis item is already signed!"
+  not-holding-item: "%prefix% &cYou have to be holding an item in your hand in order to sign it!"
+  cant-sign-item: "%prefix% &cThis item can't be signed!"
+  too-many-items: "%prefix% &cYou are holding too many items!"
+
+Formats:
+  date: "MM/dd/yyyy"  # -> https://www.dateformatgenerator.com/?lang=Java
+  time: "HH:mm"
