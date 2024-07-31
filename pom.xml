@@ -6,7 +6,7 @@
 
     <groupId>com.ikonodim</groupId>
     <artifactId>SlashSignItem</artifactId>
-    <version>1.0_R1</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>SlashSignItem</name>
