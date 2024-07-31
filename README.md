@@ -1,4 +1,4 @@
-<img src="https://github.com/IkonoDim/SlashSignItem/blob/main/assets/slashsignitem-banner.png?raw=true" alt="drawing" height="100"/>
+<img src="https://github.com/IkonoDim/SlashSignItem/blob/main/assets/slashsignitem-banner.png?raw=true" alt="banner" height="100"/>
 A highly customizable Minecraft Paper plugin that adds the ability to sign items
 
 ## Overview
@@ -7,6 +7,12 @@ SlashSignItem is a Minecraft plugin designed for Paper servers. It allows player
 ## Requirements
 - Java 21 or newer
 - MInecraft (Paper) 1.20.* or newer
+
+## Ingame Example
+<img src="https://github.com/IkonoDim/SlashSignItem/blob/main/assets/slashsignitem-screenshot01.png?raw=true" alt="screenshot" height="130"/>
+<img src="https://github.com/IkonoDim/SlashSignItem/blob/main/assets/slashsignitem-screenshot02.png?raw=true" alt="screenshot" height="130"/>
+<sub>Screenshots made in Minecraft 1.20.6 using the default configuration</sub>
+
 
 ## Features
 - Item Signing: Commands to sign and unsign items.
